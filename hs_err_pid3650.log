@@ -1,0 +1,214 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=3650, tid=3078007616
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_24-b24
+# Java VM: OpenJDK Client VM (20.0-b12 mixed mode linux-x86 )
+# Derivative: IcedTea6 1.11.1
+# Distribution: Fedora release 16 (Verne), package fedora-65.1.11.1.fc16-i386
+# If you would like to submit a bug report, please include
+# instructions how to reproduce the bug and visit:
+#   http://icedtea.classpath.org/bugzilla
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0xb7605400):  JavaThread "Unknown thread" [_thread_in_vm, id=3655, stack(0xb771a000,0xb776b000)]
+
+Stack: [0xb771a000,0xb776b000]
+[error occurred during error reporting (printing stack bounds), id 0xb]
+
+
+[error occurred during error reporting (printing native stack), id 0xb]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0xb7605400 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=3655, stack(0xb771a000,0xb776b000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+00127000-00150000 r-xp 00000000 08:04 4536       /lib/libm-2.14.90.so
+00150000-00151000 r--p 00028000 08:04 4536       /lib/libm-2.14.90.so
+00151000-00152000 rw-p 00029000 08:04 4536       /lib/libm-2.14.90.so
+00152000-0015d000 r-xp 00000000 08:04 403376     /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386/libverify.so
+0015d000-0015e000 rw-p 0000b000 08:04 403376     /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386/libverify.so
+0015e000-00184000 r-xp 00000000 08:04 403357     /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386/libjava.so
+00184000-00186000 rw-p 00026000 08:04 403357     /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386/libjava.so
+00186000-00191000 r-xp 00000000 08:04 32097      /lib/libnss_files-2.14.90.so
+00191000-00192000 r--p 0000a000 08:04 32097      /lib/libnss_files-2.14.90.so
+00192000-00193000 rw-p 0000b000 08:04 32097      /lib/libnss_files-2.14.90.so
+00193000-0019a000 r-xp 00000000 08:04 403377     /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386/libzip.so
+0019a000-0019b000 rw-p 00006000 08:04 403377     /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386/libzip.so
+008a2000-008a3000 r-xp 00000000 00:00 0          [vdso]
+008a3000-00db7000 r-xp 00000000 08:04 403341     /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386/client/libjvm.so
+00db7000-00ddb000 rw-p 00513000 08:04 403341     /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386/client/libjvm.so
+00ddb000-011f2000 rw-p 00000000 00:00 0 
+08048000-08051000 r-xp 00000000 08:04 403936     /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/bin/java
+08051000-08052000 rw-p 00008000 08:04 403936     /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/bin/java
+091b0000-091d1000 rw-p 00000000 00:00 0          [heap]
+44af3000-44b14000 r-xp 00000000 08:04 4524       /lib/ld-2.14.90.so
+44b14000-44b15000 r--p 00020000 08:04 4524       /lib/ld-2.14.90.so
+44b15000-44b16000 rw-p 00021000 08:04 4524       /lib/ld-2.14.90.so
+44b18000-44cbf000 r-xp 00000000 08:04 4535       /lib/libc-2.14.90.so
+44cbf000-44cc0000 ---p 001a7000 08:04 4535       /lib/libc-2.14.90.so
+44cc0000-44cc2000 r--p 001a7000 08:04 4535       /lib/libc-2.14.90.so
+44cc2000-44cc3000 rw-p 001a9000 08:04 4535       /lib/libc-2.14.90.so
+44cc3000-44cc6000 rw-p 00000000 00:00 0 
+44cc8000-44ccc000 r-xp 00000000 08:04 440159     /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386/jli/libjli.so
+44ccc000-44ccd000 rw-p 00003000 08:04 440159     /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386/jli/libjli.so
+44cf5000-44d0c000 r-xp 00000000 08:04 4537       /lib/libpthread-2.14.90.so
+44d0c000-44d0d000 r--p 00016000 08:04 4537       /lib/libpthread-2.14.90.so
+44d0d000-44d0e000 rw-p 00017000 08:04 4537       /lib/libpthread-2.14.90.so
+44d0e000-44d10000 rw-p 00000000 00:00 0 
+44d12000-44d15000 r-xp 00000000 08:04 4541       /lib/libdl-2.14.90.so
+44d15000-44d16000 r--p 00002000 08:04 4541       /lib/libdl-2.14.90.so
+44d16000-44d17000 rw-p 00003000 08:04 4541       /lib/libdl-2.14.90.so
+44d19000-44d21000 r-xp 00000000 08:04 4546       /lib/librt-2.14.90.so
+44d21000-44d22000 r--p 00007000 08:04 4546       /lib/librt-2.14.90.so
+44d22000-44d23000 rw-p 00008000 08:04 4546       /lib/librt-2.14.90.so
+44d25000-44d41000 r-xp 00000000 08:04 4542       /lib/libgcc_s-4.6.2-20111027.so.1
+44d41000-44d42000 rw-p 0001b000 08:04 4542       /lib/libgcc_s-4.6.2-20111027.so.1
+44d44000-44d59000 r-xp 00000000 08:04 4540       /lib/libz.so.1.2.5
+44d59000-44d5a000 rw-p 00014000 08:04 4540       /lib/libz.so.1.2.5
+45706000-457e8000 r-xp 00000000 08:04 161243     /usr/lib/libstdc++.so.6.0.16
+457e8000-457ec000 r--p 000e2000 08:04 161243     /usr/lib/libstdc++.so.6.0.16
+457ec000-457ed000 rw-p 000e6000 08:04 161243     /usr/lib/libstdc++.so.6.0.16
+457ed000-457f4000 rw-p 00000000 00:00 0 
+465f7000-4660e000 r-xp 00000000 08:04 6485       /lib/libnsl-2.14.90.so
+4660e000-4660f000 r--p 00016000 08:04 6485       /lib/libnsl-2.14.90.so
+4660f000-46610000 rw-p 00017000 08:04 6485       /lib/libnsl-2.14.90.so
+46610000-46612000 rw-p 00000000 00:00 0 
+912d5000-91393000 r--s 0103e000 08:04 456054     /home/wafiq/android-sdk-linux/platforms/android-14/android.jar
+91393000-9139a000 rw-p 00000000 00:00 0 
+9139a000-913b4000 rw-p 00000000 00:00 0 
+913b4000-913ba000 rw-p 00000000 00:00 0 
+913ba000-9145f000 rw-p 00000000 00:00 0 
+9145f000-91462000 rw-p 00000000 00:00 0 
+91462000-914b4000 rw-p 00000000 00:00 0 
+914b4000-914ba000 rw-p 00000000 00:00 0 
+914ba000-9155f000 rw-p 00000000 00:00 0 
+9155f000-91565000 rw-p 00000000 00:00 0 
+91565000-9157f000 rw-p 00000000 00:00 0 
+9157f000-91ad0000 rw-p 00000000 00:00 0 
+91ad0000-9c020000 rw-p 00000000 00:00 0 
+9c020000-9cad0000 rw-p 00000000 00:00 0 
+9cad0000-b1580000 rw-p 00000000 00:00 0 
+b1580000-b2180000 rw-p 00000000 00:00 0 
+b2180000-b5580000 rw-p 00000000 00:00 0 
+b5580000-b5581000 rw-p 00000000 00:00 0 
+b5581000-b5600000 rw-p 00000000 00:00 0 
+b5600000-b5630000 rwxp 00000000 00:00 0 
+b5630000-b765d000 rw-p 00000000 00:00 0 
+b765d000-b7700000 ---p 00000000 00:00 0 
+b771a000-b771d000 ---p 00000000 00:00 0 
+b771d000-b776d000 rw-p 00000000 00:00 0 
+b7779000-b7781000 rw-s 00000000 08:04 263237     /tmp/hsperfdata_wafiq/3650
+b7781000-b7782000 rw-p 00000000 00:00 0 
+b7782000-b7783000 r--p 00000000 00:00 0 
+b7783000-b7784000 rw-p 00000000 00:00 0 
+bfe42000-bfe63000 rw-p 00000000 00:00 0          [stack]
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath/p:/home/wafiq/android-sdk-linux/platforms/android-14/android.jar 
+java_command: net.safik.bfx.BfxFactory
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/wafiq/.local/bin:/home/wafiq/bin
+USERNAME=wafiq
+LD_LIBRARY_PATH=/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386/client:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/../lib/i386:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386/client:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/i386:
+SHELL=/bin/bash
+DISPLAY=:0.0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0x3e47e0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGBUS: [libjvm.so+0x3e47e0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGFPE: [libjvm.so+0x302240], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGPIPE: [libjvm.so+0x302240], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGXFSZ: [libjvm.so+0x302240], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGILL: [libjvm.so+0x302240], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGUSR1: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGUSR2: [libjvm.so+0x3020d0], sa_mask[0]=0x00000004, sa_flags=0x10000004
+SIGHUP: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGINT: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGTERM: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGQUIT: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+
+
+---------------  S Y S T E M  ---------------
+
+OS:Fedora release 16 (Verne)
+
+uname:Linux 3.3.0-4.fc16.i686 #1 SMP Tue Mar 20 18:45:14 UTC 2012 i686
+libc:glibc 2.14.90 NPTL 2.14.90 
+rlimit: STACK 8192k, CORE 0k, NPROC 1024, NOFILE 4096, AS infinity
+load average:0.23 0.11 0.14
+
+/proc/meminfo:
+MemTotal:        2066260 kB
+MemFree:          136132 kB
+Buffers:           24936 kB
+Cached:           975124 kB
+SwapCached:            0 kB
+Active:          1240748 kB
+Inactive:         494204 kB
+Active(anon):     783296 kB
+Inactive(anon):    37904 kB
+Active(file):     457452 kB
+Inactive(file):   456300 kB
+Unevictable:       42044 kB
+Mlocked:               0 kB
+HighTotal:       1191764 kB
+HighFree:          28436 kB
+LowTotal:         874496 kB
+LowFree:          107696 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:             10880 kB
+Writeback:             0 kB
+AnonPages:        777012 kB
+Mapped:           110512 kB
+Shmem:             44200 kB
+Slab:              64896 kB
+SReclaimable:      45068 kB
+SUnreclaim:        19828 kB
+KernelStack:        2712 kB
+PageTables:         6360 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1033128 kB
+Committed_AS:    2160124 kB
+VmallocTotal:     122880 kB
+VmallocUsed:       10664 kB
+VmallocChunk:     111676 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    450560 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       4096 kB
+DirectMap4k:       69624 kB
+DirectMap4M:      835584 kB
+
+
+CPU:total 1 (1 cores per cpu, 1 threads per core) family 6 model 13 stepping 8, cmov, cx8, fxsr, mmx, sse, sse2
+
+Memory: 4k page, physical 2066260k(136132k free), swap 0k(0k free)
+
+vm_info: OpenJDK Client VM (20.0-b12) for linux-x86 JRE (1.6.0_24-b24), built on Feb 15 2012 07:54:11 by "mockbuild" with gcc 4.6.2 20111027 (Red Hat 4.6.2-1)
+
+time: Wed Mar 28 21:29:22 2012
+elapsed time: 0 seconds
+

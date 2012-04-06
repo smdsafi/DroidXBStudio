@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BfxStudioActivity!</string>
+    <string name="app_name">Xtreme Business Studio</string>
+    <string name="ognl">ognl</string>
+    <string name="ognl_string">ognl_string</string>
+    <string name="string">string</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="open">Open</string>
+
+    <string-array name="project_type">
+        <item>Main</item>
+    </string-array>
+    <string-array name="process_type">
+        <item>Standard</item>
+        <item>Main</item>
+    </string-array>
+    <string-array name="form_type">
+        <item>Standard</item>
+        <item>Popup</item>
+    </string-array>
+    <string-array name="form_operation">
+        <item>Show</item>
+        <item>Hide</item>
+    </string-array>
+    <string-array name="form_event_type">
+        <item>OnShow</item>
+        <item>OnHide</item>
+    </string-array>
+    <string-array name="box_event_type">
+        <item>OnClick</item>
+        <item>OnFocus</item>
+        <item>OnSelect</item>
+    </string-array>
+    <string-array name="frame_event_type">
+        <item>OnClick</item>
+        <item>OnFocus</item>
+        <item>OnSelect</item>
+    </string-array>
+    <string-array name="action_event_type">
+        <item>OnStart</item>
+        <item>OnEnd</item>
+    </string-array>
+    <string-array name="box_type">
+        <item>TextBox</item>
+        <item>Label</item>
+        <item>Button</item>
+        <item>Image</item>
+        <item>CheckBox</item>
+    </string-array>
+    
+    <string-array name="frame_list_box_type">
+        <item>Label</item>
+    </string-array>
+    
+    <string-array name="frame_radio_box_type">
+		<item>RadioBox</item>
+    </string-array>
+    
+    <string-array name="frame_type">
+		<item>LineBorder</item>
+		<item>Radio</item>
+		<item>List</item>
+		<item>Table</item>
+    </string-array>
+    
+    <string-array name="boxref_opr_type">
+		<item>show</item>
+		<item>hide</item>
+		<item>enable</item>
+		<item>disable</item>
+    </string-array>
+    
+</resources>
